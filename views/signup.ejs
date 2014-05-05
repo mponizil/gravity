@@ -1,0 +1,19 @@
+<% include layout/head %>
+
+<h1>Signup</h1>
+
+<form action='/signup' method='post' role='form'>
+
+  <div class='form-group'>
+    <input type='text' name='email' class='form-control' placeholder='Email' />
+  </div>
+
+  <div class='form-group'>
+    <input type='password' name='password' class='form-control' placeholder='Password' />
+  </div>
+
+  <input type='submit' name='submit' value='Signup!' class='btn btn-primary' />
+
+</form>
+
+<% include layout/foot %>

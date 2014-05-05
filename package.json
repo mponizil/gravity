@@ -1,0 +1,21 @@
+{
+  "name": "gravity",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "supervisor app.coffee",
+    "postinstall": "coffee -c public/javascripts/"
+  },
+  "dependencies": {
+    "express": "3.5.0",
+    "jade": "*",
+    "ejs": "^1.0.0",
+    "kaiseki": "^0.5.4",
+    "passport-local": "^1.0.0",
+    "passport": "^0.2.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "supervisor": "^0.5.7"
+  }
+}

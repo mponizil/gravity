@@ -1,0 +1,5 @@
+node_modules
+.DS_Store
+public/javascripts/*.js
+npm-debug.log
+config/*.coffee
