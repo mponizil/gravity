@@ -12,7 +12,8 @@
     "ejs": "^1.0.0",
     "kaiseki": "^0.5.4",
     "passport-local": "^1.0.0",
-    "passport": "^0.2.0"
+    "passport": "^0.2.0",
+    "apac": "0.0.14"
   },
   "devDependencies": {
     "coffee-script": "^1.7.1",
