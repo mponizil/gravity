@@ -71,7 +71,6 @@ app.locals.pricify = (price) ->
 app.get('/', routes.index)
 app.get('/product/:item_id', routes.product)
 app.get('/search', routes.search)
-app.get('/bookmarklet', routes.bookmarklet)
 
 app.get('/signup', routes.signup)
 app.post('/signup', routes.register)
